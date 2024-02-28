@@ -19,8 +19,11 @@ public class Student {
         System.out.print("Ma so sinh vien: ");
         id=sc.nextInt();
         System.out.print("Tuoi: ");
+        sc.nextLine();
         age=sc.nextInt();
-        
+        System.out.print("Que quan: ");
+        sc.nextLine();
+        que=sc.nextLine();
         
     }
     public void inThongTin()
@@ -29,7 +32,7 @@ public class Student {
         System.out.println("Ten: "+name);
         System.out.println("Ma so sinh vien: "+id);
         System.out.println("Tuoi: "+age);
-        
+        System.out.println("Que quan: "+que);
     }
     public static void main(String[] args) {
         Student st=new Student();
