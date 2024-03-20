@@ -12,6 +12,7 @@ public class HinhTron {
         Scanner sc=new Scanner(System.in);
         System.out.print("Ban kinh la: ");
         banKinh=sc.nextInt();
+        sc.close();
     }
     public void tinhChuVi()
     {
@@ -26,6 +27,10 @@ public class HinhTron {
         Scanner sc=new Scanner(System.in);
         System.out.println("Chu vi la: "+chuVi);
         System.out.println("Dien tich la: "+ dienTich);
+        sc.close();
+
+
+        
     }
     public static void main(String[] args) {
         HinhTron ht=new HinhTron();

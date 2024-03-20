@@ -17,6 +17,7 @@ public class Employee
         id=sc.nextInt();
         System.out.print("Nam sinh: ");
         year=sc.nextInt();
+        sc.close();
         
         
     }

@@ -13,6 +13,11 @@ public class hinhTron extends hinhHoc{
         Scanner sc=new Scanner(System.in);
         System.out.print("Ban kinh la: ");
         banKinh=sc.nextInt();
+        sc.close();
+
+
+
+        
     }
     public void tinhChuVi()
     {

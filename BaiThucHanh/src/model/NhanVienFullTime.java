@@ -8,7 +8,7 @@ public class NhanVienFullTime extends NhanVien{
     }
     public NhanVienFullTime(String ten, int ngayLamThem){
         this.ten=ten;
-        this.ngayLamThem=ngayLamThem;
+        
     }
     public void setLoaiChucVu(int loaiChucVu){
         

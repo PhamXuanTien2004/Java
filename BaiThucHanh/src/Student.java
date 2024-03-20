@@ -12,6 +12,8 @@ public class Student {
     String que;
     
     public void nhapThongTin()
+
+    
     {
         Scanner sc= new Scanner(System.in);
         System.out.print("Ten: ");
@@ -24,7 +26,7 @@ public class Student {
         System.out.print("Que quan: ");
         sc.nextLine();
         que=sc.nextLine();
-        
+        sc.close();
     }
     public void inThongTin()
     {
