@@ -1,3 +1,6 @@
+package Lists;
+
+
 
 import java.util.Scanner;
 
@@ -24,6 +27,7 @@ public class Student {
         System.out.print("Que quan: ");
         sc.nextLine();
         que=sc.nextLine();
+        sc.close();
         
     }
     public void inThongTin()
