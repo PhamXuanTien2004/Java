@@ -1,9 +1,9 @@
-package Linked.HashSet;
+package HashSet;
 
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class HashSet1 {
+public class HashSet2 {
     public static void main(String[] args) {
         int number;
         HashSet<Integer> hashSetInterger= new HashSet<Integer>();
@@ -19,18 +19,17 @@ public class HashSet1 {
         hashSetInterger.add(6);
         System.out.println("Cac phan tu trong HashSetInterger");
         System.out.println(hashSetInterger);
-        System.out.println("Nhap phan tu can thiet: ");
+        System.out.println("Nhap phan tu can xoa: ");
         number= sc.nextInt();
-        if(!hashSetInterger.contains(number))
+        if(hashSetInterger.contains(number))
         {
-            hashSetInterger.add(number);
-            System.out.println("Them thanh cong");
-            System.out.println("Cac phan tu tring HashSetInterger sau khi them: ");
+            hashSetInterger.remove(number);
+            System.out.println("Xoa thanh cong");
+            System.out.println("Cac phan tu tring HashSetInterger sau khi xoa: ");
             System.out.println(hashSetInterger);
         }
-        else System.out.print("Phan tu "+ number+" da ton tai");
+        else System.out.print("Phan tu "+ number+" khong ton tai");
         
 
-        
     }
 }
