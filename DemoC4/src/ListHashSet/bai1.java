@@ -12,9 +12,24 @@ public class bai1 {
         linkedHashSet.add("C++");
         linkedHashSet.add("Java");
         linkedHashSet.add("PHP");
-        for(String i:linkedHashSet)
-        {
-            System.out.println(i);
+        Scanner sc = new Scanner(System.in);
+        String s;
+        s = sc.nextLine();
+        if (linkedHashSet.contains(s)) {
+            linkedHashSet.remove(s);
+            System.out.println("Xoa thanh cong");
+            System.out.println("LinkedHashSet moi la: ");
+            for (String i : linkedHashSet) {
+                System.out.println(i);
+            }
+        } else {
+            System.out.println("Phan tu " + s + " khong co.");
+            System.out.println("LinkedHashSet la: ");
+            for (String i : linkedHashSet) {
+                System.out.println(i);
+            }
         }
+
+        sc.close();
     }
 }
