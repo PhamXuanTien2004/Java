@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 
@@ -14,6 +15,7 @@ public class PXT418_Person {
         tuoi=sc.nextInt();
         System.out.println("Que quan: ");
         que=sc.nextLine();
+        sc.close();
     }
     public void xuat()
     {
@@ -22,5 +24,26 @@ public class PXT418_Person {
         System.out.println("Tuoi "+tuoi);
         System.out.println("Que quan "+que);
     }
-    
+
+    public static void main(String[] args) {
+        PXT418_Person Person;
+        ArrayList<PXT418_Person>arrlist= new ArrayList<>();
+        int n;
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Nhap so phan tu: ");
+        n=sc.nextInt();
+        // them phan tu 
+        arrlist.add(Person);
+        // xoa phan tu
+        arrlist.remove(Person);
+        //sua
+        //hien thi
+        for(int i=0;i<n;i++)
+        {
+            arrlist.get(i);
+        }
+        
+        
+
+    }
 }
