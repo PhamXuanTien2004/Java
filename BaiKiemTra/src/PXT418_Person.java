@@ -1,5 +1,5 @@
 public class PXT418_Person {
-    int tuoi;
-    String ten;
-    String mssv;
+    public int tuoi;
+    public String ten;
+    public String mssv;
 }
