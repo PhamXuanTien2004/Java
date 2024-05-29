@@ -29,6 +29,7 @@ public class PXT418_Person {
     public void sua(int n)
     {
         
+        
     }
     public static void main(String[] args) {
         PXT418_Person Person= new PXT418_Person();

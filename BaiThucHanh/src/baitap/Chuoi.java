@@ -4,7 +4,7 @@ public class Chuoi {
     public static void main(String[] args) {
         String s;
         Scanner sc= new Scanner(System.in);
-        
+        int a;
         System.out.print("Chuoi la: ");
         s=sc.nextLine();
         System.out.println("cac ky tu o chuoi la: ");
